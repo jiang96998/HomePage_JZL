@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>web home</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Zhongliang Jiang is currently a Ph.D. at Technical University of Munich">
+  <meta name="keywords" content="Zhongliang Jiang, 蒋中亮, zhonglingjiang, zhongliang, jiang, medical robotics, robotic ultrasound, TUM, robot learning">
+  <meta name="author" content="Zhongliang Jiang" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+#hp  {
+float: right;    
+ margin: 0 0 0 25px;
+}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
+</head>
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:200px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <p style="text-align: center;"><img style="width: 80%;max-width: 150px" alt="profile photo" src="images/zhongliang_jiang.jpg"></p> 
+    <h4><b>Zhongliang Jiang</b></h4>
+    <h6>Researcher</h6>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="home.html" class="w3-bar-item w3-button">Home</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+    <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+    <a href="#talks" class="w3-bar-item w3-button">Talks</a>
+    <a href="publications.html" class="w3-bar-item w3-button">Publications</a>
+    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+
+<!-- Sidebar/menu -->
+<!--
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:200px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <p style="text-align: center;"><img style="width: 80%;max-width: 150px" alt="profile photo" src="images/zhongliang_jiang.jpg"></p> 
+    <h4><b>Zhongliang Jiang</b></h4>
+    <h6>Researcher</h6>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#talks" class="w3-bar-item w3-button">Talks</a>
+    <a href="#publications" class="w3-bar-item w3-button">Research</a>
+    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>  -->
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">ZHONGLIANG</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:200px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+
+
+
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 80%;max-width: 260px" alt="profile photo" src="images/zhongliang_jiang_davin.jpg" id="hp">
+      <h1>Zhongliang Jiang</h1>
+       <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:750px">
+         I am currently a Ph.D. candidate in Computer Scinece at Technical University of Munich. My main research objective is to <b> apply robotics for various clinical applications</b>. I joined the chair of Computer Aided Medical Procedures (<a href="http://campar.in.tum.de/WebHome">CAMP</a>) from Oct 2018, advised by <a href="https://scholar.google.de/citations?user=kzoVUPYAAAAJ&hl=de">Prof. Nassir Navab</a>. Before this, I graduated from Harbin Institure of Technology (Shenzhen) in Jan 2017 and then, worked as a research assistant in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences from Jan 2017 to Jun 2018, where I focused on the development of robot-assist spinal surgery system. 
+        </p>
+        <p class="w3-center" style="text-align:center">
+           <a href="mailto:zl.jiang@tum.de"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/email.png"></a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ&hl=en"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/google scholar.png"></a> &nbsp/&nbsp
+          <a href="https://github.com/jiang96998"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/github.png"></a> &nbsp/&nbsp
+          <a href="https://twitter.com/JiangZhongliang"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/tweet.png"></a> &nbsp/&nbsp
+          <a href="https://www.linkedin.com/in/zhongliang-jiang-14a58915b/"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/linkedin.png"></a> &nbsp/&nbsp
+          <a href="https://www.researchgate.net/profile/Zhongliang-Jiang-4"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/researchgate.jpg"></a>&nbsp/&nbsp
+         <a href="https://www.youtube.com/channel/UCbK0yMCNbXtq5BsGIS0I9aQ"><img style="width: 80%;max-width: 40px" alt="profile photo" src="images/icons/youtube.png"></a>
+        </p>
+        </tbody></table>
+  </div>
+
+
+<!-- The News Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="news">
+   <h2>News</h2>
+      <ul>
+      <li> <font color="blue"><strong>30 Jun (2021)</strong></font>: 1 paper accepted <b>IEEE Robotics and Automation Letters</b> (presented at <b>IROS2021</b>)</li>
+      <li> <font color="blue"><strong>23 Jun (2021)</font></strong>: 1 paper accepted for publication in <b>IEEE Transactions on Industrial Electronics</b></li>
+      <li> <font color="blue"><strong>28 Feb (2021)</font></strong>: 1 paper accepted to <b>ICRA2021</b></li>
+      <li> <font color="blue"><strong>21 Oct (2020)</font></strong>: 1 paper accepted for publication in <b>IEEE Transactions on Industrial Electronics</b></li>
+      <li> <font color="blue"><strong>30 May (2020)</font></strong>: 1 paper accepted for publication in <b>IEEE Trans. on Medical Robotics and Bionics</b></li>
+      <li> <font color="blue"><strong>07 Jan (2020)</font></strong>: 1 paper accepted to <b>IEEE Robotics and Automation Letters</b> (presented at <b>ICRA2020</b>)</li>
+      </ul>
+  </div>  
+  
+
+<!-- Vistors Logs -->
+  <div class="w3-container w3-center w3-padding-32">
+   <a href="https://info.flagcounter.com/F3Oe"><img src="https://s11.flagcounter.com/count2/F3Oe/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  </div>  
+
+  
+
+
+</body>
+</html>
